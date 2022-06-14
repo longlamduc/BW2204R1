@@ -12,6 +12,9 @@ header {
     /* background-color: coral; */
     height: 10%;
     border-bottom: 1px solid gray;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 #logo {
@@ -35,7 +38,7 @@ header {
     font-weight: 600;
 }
 
-header button {
+header > button {
     float: right;
     margin-right: 80px;
     height: 100%;
@@ -43,4 +46,59 @@ header button {
     background-color: #205C40;
     border: none;
     color: white;
+}
+
+header + div {
+    padding-top: 4%;
+}
+
+div img {
+    width: 40%;
+}
+
+.intro {
+    width: 60%;
+    text-align: right;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+}
+
+.intro h1 {
+    color: #205c40;
+    font-size: 36px;
+}
+
+.intro p {
+    color: #888;
+    font-weight: bold;
+}
+
+.content {
+    clear: both;
+    height: 60%;
+    background-color: #205c40;
+    margin-top: 20px;
+    padding: 0 10%;
+}
+
+.content p {
+    width: 40%;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 30px;
 }
