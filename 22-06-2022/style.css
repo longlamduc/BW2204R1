@@ -1,0 +1,50 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start | flex-end | center | space-around | space-between | space-evenly */
+    justify-content: space-evenly;
+    /* align-items: flex-start | flex-end | center | baseline | stretch */
+    align-items: stretch;
+}
+
+#item-1 {
+    background-color: chartreuse;
+}
+
+#item-2 {
+    background-color: brown;
+}
+
+#item-3 {
+    background-color: gold;
+}
+
+#item-4 {
+    background-color: darkgreen;
+    align-self: center;
+}
+
+#item-5 {
+    background-color: magenta;
+}
+
+#item-6 {
+    background-color: midnightblue;
+}
